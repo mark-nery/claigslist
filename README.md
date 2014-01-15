@@ -1,25 +1,26 @@
 # claigslist
 
-FIXME: description
+Search craigslist with clojure
 
+more info to come...
 ## Installation
 
-Download from http://example.com/FIXME.
+
 
 ## Usage
 
-FIXME: explanation
-
-    $ java -jar claigslist-0.1.0-standalone.jar [args]
 
 ## Options
 
-FIXME: listing of options this app accepts.
 
 ## Examples
 
-...
-
+```
+user=> (search "boulder" {:query "gluten free vegan bacon"})
+({:id "23581321" 
+  :title "selling gluten free bacon since I am on a juice fast" 
+  :link "http://boulder.craigslist.org/something?blah"})
+```
 ### Bugs
 
 ...
